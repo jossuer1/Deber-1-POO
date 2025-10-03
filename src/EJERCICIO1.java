@@ -1,7 +1,10 @@
 //Ejercicio 1: Registro de inventarios de plásticos
 //Objetivo: Registrar producto plástico y calcular valor total de stock.
+// practica en el curso subir de nuevo todo
+
 import  java.util.Scanner;
 public class EJERCICIO1 {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -14,16 +17,16 @@ public class EJERCICIO1 {
 
         for (int i = 0; i < cantidad; i++) {
             System.out.println("PRODUCTO #" + (i + 1));
-            System.out.print("Nombre del producto: ");
+            System.out.print("Nombre del Producto: ");
             nombre[i] = input.nextLine();
 
-            System.out.print("Precio del producto: ");
+            System.out.print("Precio del Producto: ");
             precio[i] = input.nextDouble();
             input.nextLine();
         }
 
         double total = 0;
-        System.out.println("\nResumen de productos:");
+        System.out.println("\nResumen de Productos:");
         for (int i = 0; i < cantidad; i++) {
             System.out.println(nombre[i] + " - $" + precio[i]);
             total += precio[i];

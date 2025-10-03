@@ -3,6 +3,7 @@
 //Entradas: edad (int), altura (double).
 //Salida: “Cumple” o “No cumple”.
 //Reglas: edad y altura deben ser positivas
+// practica en el curso subir de nuevo todo
 
 import java.util.Scanner;
 

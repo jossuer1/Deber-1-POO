@@ -3,6 +3,7 @@
 //        Entradas: cedula, nombres, telefono, email.
 //        Salida: Ficha en consola.
 //        Reglas: validar que los campos no estén vacíos.
+// practica en el curso subir de nuevo todo
 
 import java.util.Scanner;
 
